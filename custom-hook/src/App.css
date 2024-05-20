@@ -4,26 +4,30 @@
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #bb2020;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the content */
+  background-color: #801db1; /* Light gray background color */
 }
 
 h1 {
   font-size: 24px;
-  text-align: center;
 }
 
 .input-field {
-  width: 100%;
+  width: calc(100% - 20px); /* Make room for padding */
   padding: 10px;
+  margin: 0 auto; /* Center the input field */
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #581111;
   border-radius: 4px;
   font-size: 16px;
+  box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .stored-value {
   font-size: 18px;
   font-weight: bold;
+  margin-top: 20px; /* Add some space between input and stored value */
 }
