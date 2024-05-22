@@ -32,9 +32,9 @@ const App = () => {
   };
 
   return (
-    <div>
-      <input type="text" value={inputValue} onChange={handleInputChange} />
-      <p>Stored value: {inputValue}</p>
+    <div class="container">
+      <input class="input-field" type="text" value={inputValue} onChange={handleInputChange} />
+      <p class="stored-value">Stored value: {inputValue}</p>
     </div>
   );
 };
